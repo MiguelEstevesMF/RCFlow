@@ -1,0 +1,1166 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    192.168.1.5           192.168.1.1           DNS      Standard query A www.linuxquestions.org
+
+Frame 1 (82 bytes on wire, 82 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 32785 (32785), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.001745    192.168.1.1           192.168.1.5           DNS      Standard query response A 64.179.4.146
+
+Frame 2 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.5 (192.168.1.5)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 32785 (32785)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.015894    192.168.1.5           64.179.4.146          TCP      54861 > www [SYN] Seq=0 Len=0 MSS=1460 TSV=682940 TSER=0 WS=2
+
+Frame 3 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.169219    64.179.4.146          192.168.1.5           TCP      www > 54861 [SYN, ACK] Seq=0 Ack=1 Win=23168 Len=0 MSS=1460 TSV=3248923303 TSER=682940 WS=2
+
+Frame 4 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      5 0.169258    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSV=682978 TSER=3248923303
+
+Frame 5 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      6 0.169519    192.168.1.5           64.179.4.146          HTTP     GET /questions/linux-software-2/wireshark-does-not-have-permission-to-save-files-507913/ HTTP/1.1
+
+Frame 6 (1110 bytes on wire, 1110 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1, Ack: 1, Len: 1044
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      7 0.341437    64.179.4.146          192.168.1.5           TCP      www > 54861 [ACK] Seq=1 Ack=1045 Win=7880 Len=0 TSV=3248923476 TSER=682978
+
+Frame 7 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 1, Ack: 1045, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      8 0.495241    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 8 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 1, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+      9 0.495279    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=1349 Win=8536 Len=0 TSV=683059 TSER=3248923627
+
+Frame 9 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 1349, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     10 0.496851    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 10 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 1349, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     11 0.496861    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=2697 Win=11232 Len=0 TSV=683060 TSER=3248923627
+
+Frame 11 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 2697, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     12 0.498345    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 12 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 2697, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     13 0.498352    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=4045 Win=13928 Len=0 TSV=683060 TSER=3248923627
+
+Frame 13 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 4045, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     14 0.522095    192.168.1.5           64.179.4.146          TCP      54862 > www [SYN] Seq=0 Len=0 MSS=1460 TSV=683066 TSER=0 WS=2
+
+Frame 14 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     15 0.649453    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 15 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 4045, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     16 0.649485    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=5393 Win=16624 Len=0 TSV=683098 TSER=3248923781
+
+Frame 16 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 5393, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     17 0.650847    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 17 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 5393, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     18 0.650851    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=6741 Win=19320 Len=0 TSV=683098 TSER=3248923781
+
+Frame 18 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 6741, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     19 0.652320    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 19 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 6741, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     20 0.652328    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=8089 Win=22016 Len=0 TSV=683099 TSER=3248923783
+
+Frame 20 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: n54861 (7), Dst Port: www (80), Seq: 1045, Ack: 8089, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     21 0.654025    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 21 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 8089, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     22 0.654029    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=9437 Win=24712 Len=0 TSV=683099 TSER=3248923783
+
+Frame 22 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: n54861 (20), Dst Port: www (80), Seq: 1045, Ack: 9437, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     23 0.655508    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 23 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 9437, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     24 0.655512    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=10785 Win=27408 Len=0 TSV=683100 TSER=3248923784
+
+Frame 24 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: n54861 (21), Dst Port: www (80), Seq: 1045, Ack: 10785, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     25 0.657331    64.179.4.146          192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 25 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 10785, Ack: 1045, Len: 1348
+
+No.     Time        Source                Destination           Protocol Info
+     26 0.657335    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=12133 Win=30104 Len=0 TSV=683100 TSER=3248923784
+
+Frame 26 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: n54861 (22), Dst Port: www (80), Seq: 1045, Ack: 12133, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     27 0.675764    64.179.4.146          192.168.1.5           TCP      www > 54862 [SYN, ACK] Seq=0 Ack=1 Win=23168 Len=0 MSS=1460 TSV=3248923810 TSER=683066 WS=2
+
+Frame 27 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54862 (54862), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     28 0.675811    192.168.1.5           64.179.4.146          TCP      54862 > www [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSV=683105 TSER=3248923810
+
+Frame 28 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: n54862 (8080), Dst Port: www (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     29 0.676137    192.168.1.5           64.179.4.146          HTTP     GET /questions/clientscript/vbulletin_css/style-cc6a10ca-00007.css HTTP/1.1
+
+Frame 29 (1086 bytes on wire, 1086 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 1, Ack: 1, Len: 1020
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     30 0.802229    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 200 OK (text/html)
+
+Frame 30 (448 bytes on wire, 448 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 12133, Ack: 1045, Len: 382
+[Reassembled TCP Segments (12514 bytes): #8(1348), #10(1348), #12(1348), #15(1348), #17(1348), #19(1348), #21(1348), #23(1348), #25(1348), #30(382)]
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time        Source                Destination           Protocol Info
+     31 0.802261    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=1045 Ack=12515 Win=30104 Len=0 TSV=683136 TSER=3248923936
+
+Frame 31 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 12515, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     32 0.848254    64.179.4.146          192.168.1.5           TCP      www > 54862 [ACK] Seq=1 Ack=1021 Win=7832 Len=0 TSV=3248923982 TSER=683105
+
+Frame 32 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54862 (54862), Seq: 1, Ack: 1021, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     33 0.848939    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 33 (262 bytes on wire, 262 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54862 (54862), Seq: 1, Ack: 1021, Len: 196
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     34 0.848953    192.168.1.5           64.179.4.146          TCP      54862 > www [ACK] Seq=1021 Ack=197 Win=6912 Len=0 TSV=683148 TSER=3248923982
+
+Frame 34 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 1021, Ack: 197, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     35 0.938844    192.168.1.5           64.179.4.146          HTTP     GET /questions/clientscript/vbulletin_global.js HTTP/1.1
+
+Frame 35 (1052 bytes on wire, 1052 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 1045, Ack: 12515, Len: 986
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     36 1.110248    64.179.4.146          192.168.1.5           TCP      www > 54861 [ACK] Seq=12515 Ack=2031 Win=9968 Len=0 TSV=3248924244 TSER=683170
+
+Frame 36 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 12515, Ack: 2031, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     37 1.110433    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 37 (261 bytes on wire, 261 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 12515, Ack: 2031, Len: 195
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     38 1.111812    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=2031 Ack=12710 Win=30104 Len=0 TSV=683214 TSER=3248924244
+
+Frame 38 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 2031, Ack: 12710, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     39 1.489901    192.168.1.5           64.179.4.146          HTTP     GET /questions/clientscript/vbulletin_menu.js HTTP/1.1
+
+Frame 39 (1050 bytes on wire, 1050 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 1021, Ack: 197, Len: 984
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     40 1.660849    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 40 (261 bytes on wire, 261 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54862 (54862), Seq: 197, Ack: 2005, Len: 195
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     41 1.660888    192.168.1.5           64.179.4.146          TCP      54862 > www [ACK] Seq=2005 Ack=392 Win=7984 Len=0 TSV=683351 TSER=3248924795
+
+Frame 41 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 2005, Ack: 392, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     42 1.780668    192.168.1.5           64.179.4.146          HTTP     GET /questions/vbspell.js HTTP/1.1
+
+Frame 42 (1030 bytes on wire, 1030 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 2031, Ack: 12710, Len: 964
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     43 1.950147    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 43 (261 bytes on wire, 261 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 12710, Ack: 2995, Len: 195
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     44 1.950199    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=2995 Ack=12905 Win=30104 Len=0 TSV=683423 TSER=3248925084
+
+Frame 44 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 2995, Ack: 12905, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     45 2.004134    192.168.1.5           64.179.4.146          HTTP     GET /questions/clientscript/vbulletin_post_loader.js?v=368 HTTP/1.1
+
+Frame 45 (1062 bytes on wire, 1062 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 2005, Ack: 392, Len: 996
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     46 2.174789    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 46 (260 bytes on wire, 260 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54862 (54862), Seq: 392, Ack: 3001, Len: 194
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     47 2.174832    192.168.1.5           64.179.4.146          TCP      54862 > www [ACK] Seq=3001 Ack=586 Win=9056 Len=0 TSV=683479 TSER=3248925309
+
+Frame 47 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54862 (54862), Dst Port: www (80), Seq: 3001, Ack: 586, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     48 2.191203    192.168.1.5           192.168.1.1           DNS      Standard query A linuxquestions.cachefly.net
+
+Frame 48 (87 bytes on wire, 87 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 32785 (32785), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+     49 2.192858    192.168.1.1           192.168.1.5           DNS      Standard query response A 205.234.175.175
+
+Frame 49 (103 bytes on wire, 103 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.5 (192.168.1.5)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 32785 (32785)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Info
+     50 2.193285    192.168.1.5           192.168.1.1           DNS      Standard query A ad.doubleclick.net
+
+Frame 50 (78 bytes on wire, 78 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 32785 (32785), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+     51 2.193348    192.168.1.5           205.234.175.175       TCP      41348 > www [SYN] Seq=0 Len=0 MSS=1460 TSV=683484 TSER=0 WS=2
+
+Frame 51 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     52 2.195474    192.168.1.1           192.168.1.5           DNS      Standard query response A 65.205.8.152
+
+Frame 52 (94 bytes on wire, 94 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.5 (192.168.1.5)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 32785 (32785)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Info
+     53 2.195895    192.168.1.5           65.205.8.152          TCP      44437 > www [SYN] Seq=0 Len=0 MSS=1460 TSV=683485 TSER=0 WS=2
+
+Frame 53 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44437 (44437), Dst Port: www (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     54 2.234635    205.234.175.175       192.168.1.5           TCP      www > 41348 [SYN, ACK] Seq=0 Ack=1 Win=2965504 Len=0 MSS=1460 TSV=691665937 TSER=683484 WS=9
+
+Frame 54 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     55 2.234680    192.168.1.5           205.234.175.175       TCP      41348 > www [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSV=683494 TSER=691665937
+
+Frame 55 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     56 2.235117    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/LinuxQuestions.png HTTP/1.1
+
+Frame 56 (727 bytes on wire, 727 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 1, Ack: 1, Len: 661
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     57 2.288322    205.234.175.175       192.168.1.5           TCP      www > 41348 [ACK] Seq=1 Ack=662 Win=7168 Len=0 TSV=691665991 TSER=683494
+
+Frame 57 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1, Ack: 662, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     58 2.290028    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 58 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1, Ack: 662, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     59 2.290045    192.168.1.5           205.234.175.175       TCP      41348 > www [ACK] Seq=662 Ack=171 Win=6912 Len=0 TSV=683508 TSER=691665992
+
+Frame 59 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 662, Ack: 171, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     60 2.359556    65.205.8.152          192.168.1.5           TCP      www > 44437 [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1460 WS=0 TSV=0 TSER=0
+
+Frame 60 (78 bytes on wire, 78 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 65.205.8.152 (65.205.8.152), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 44437 (44437), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     61 2.359599    192.168.1.5           65.205.8.152          TCP      44437 > www [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSV=683526 TSER=0
+
+Frame 61 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44437 (44437), Dst Port: www (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     62 2.360295    192.168.1.5           65.205.8.152          HTTP     GET /adj/ttm.linuxquestions/ros;tile=1;dcopt=ist;sz=728x90;ord=1193232850? HTTP/1.1
+
+Frame 62 (630 bytes on wire, 630 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44437 (44437), Dst Port: www (80), Seq: 1, Ack: 1, Len: 564
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     63 2.588988    65.205.8.152          192.168.1.5           HTTP     HTTP/1.0 200 OK (application/x-javascript)
+
+Frame 63 (472 bytes on wire, 472 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 65.205.8.152 (65.205.8.152), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 44437 (44437), Seq: 1, Ack: 565, Len: 406
+Hypertext Transfer Protocol
+Line-based text data: application/x-javascript
+
+No.     Time        Source                Destination           Protocol Info
+     64 2.589366    192.168.1.5           65.205.8.152          TCP      44437 > www [FIN, ACK] Seq=565 Ack=408 Win=6912 Len=0 TSV=683583 TSER=259950
+
+Frame 64 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44437 (44437), Dst Port: www (80), Seq: 565, Ack: 408, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     65 2.592283    192.168.1.5           64.233.183.164        HTTP     GET /pagead/show_ads.js HTTP/1.1
+
+Frame 65 (626 bytes on wire, 626 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51588 (51588), Dst Port: www (80), Seq: 0, Ack: 0, Len: 572
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     66 2.661585    64.233.183.164        192.168.1.5           TCP      www > 51588 [ACK] Seq=0 Ack=572 Win=6600 Len=0
+
+Frame 66 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51588 (51588), Seq: 0, Ack: 572, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     67 2.664557    64.233.183.164        192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 67 (406 bytes on wire, 406 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51588 (51588), Seq: 0, Ack: 572, Len: 352
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     68 2.703481    192.168.1.5           64.233.183.164        TCP      51588 > www [ACK] Seq=572 Ack=352 Win=38080 Len=0
+
+Frame 68 (54 bytes on wire, 54 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51588 (51588), Dst Port: www (80), Seq: 572, Ack: 352, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     69 2.706777    192.168.1.5           64.233.183.164        HTTP     GET /pagead/ads?client=ca-pub-4420048478783872&dt=1193232853790&lmt=1193232851&format=728x90_as&output=html&correlator=1193232853788&url=http%3A%2F%2Fwww.linuxquestions.org%2Fquestions%2Flinux-software-2%2Fwireshark-does-not-have-permission-to-save-files-507913%2F&color_bg=FFFFFF&color_text=000000&color_link=354f81&color_url=486591&color_border=ffffff&ad_type=text_image&ref=http%3A%2F%2Fwww.google.pt%2Fsearch%3Fhl%3Dpt-PT%26q%3Dwireshark%2B%2522you%2Bdon%2527t%2Bhave%2Bpermission%2Bto%2Bmove%2Bthe%2Bcapture%2Bfile%2522%26btnG%3DPesquisar%26meta%3D&cc=100&ga_vid=1955229425.1191768416&ga_sid=1193232665&ga_hid=972256455&ga_fc=true&flash=9&u_h=768&u_w=1024&u_ah=718&u_aw=1024&u_cd=24&u_tz=60&u_his=4&u_java=true&u_nplug=7&u_nmime=65 HTTP/1.1
+
+Frame 69 (1359 bytes on wire, 1359 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51604 (51604), Dst Port: www (80), Seq: 0, Ack: 0, Len: 1305
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     70 2.712284    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/gradients/gradient_tcat.gif HTTP/1.1
+
+Frame 70 (714 bytes on wire, 714 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 662, Ack: 171, Len: 648
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     71 2.716197    192.168.1.5           205.234.175.175       TCP      41350 > www [SYN] Seq=0 Len=0 MSS=1460 TSV=683615 TSER=0 WS=2
+
+Frame 71 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     72 2.726932    192.168.1.5           64.179.4.146          HTTP     GET /questions/clientscript/vbulletin_md5.js HTTP/1.1
+
+Frame 72 (1049 bytes on wire, 1049 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 2995, Ack: 12905, Len: 983
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     73 2.751533    65.205.8.152          192.168.1.5           TCP      www > 44437 [ACK] Seq=408 Ack=566 Win=64971 Len=0 TSV=259951 TSER=683583
+
+Frame 73 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 65.205.8.152 (65.205.8.152), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 44437 (44437), Seq: 408, Ack: 566, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     74 2.784553    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 74 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 171, Ack: 1310, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     75 2.784594    192.168.1.5           205.234.175.175       TCP      41348 > www [ACK] Seq=1310 Ack=341 Win=6912 Len=0 TSV=683632 TSER=691666487
+
+Frame 75 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 1310, Ack: 341, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     76 2.785003    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/misc/navbits_start.gif HTTP/1.1
+
+Frame 76 (731 bytes on wire, 731 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 1310, Ack: 341, Len: 665
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     77 2.785796    205.234.175.175       192.168.1.5           TCP      www > 41350 [SYN, ACK] Seq=0 Ack=1 Win=2965504 Len=0 MSS=1460 TSV=691114083 TSER=683615 WS=9
+
+Frame 77 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     78 2.785813    192.168.1.5           205.234.175.175       TCP      41350 > www [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSV=683632 TSER=691114083
+
+Frame 78 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     79 2.786153    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/misc/menu_open.gif HTTP/1.1
+
+Frame 79 (727 bytes on wire, 727 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 1, Ack: 1, Len: 661
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     80 2.790426    64.233.183.164        192.168.1.5           TCP      www > 51604 [ACK] Seq=0 Ack=1305 Win=7998 Len=0
+
+Frame 80 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 0, Ack: 1305, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     81 2.843685    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 81 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 341, Ack: 1975, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     82 2.843994    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/misc/navbits_finallink.gif HTTP/1.1
+
+Frame 82 (735 bytes on wire, 735 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 1975, Ack: 511, Len: 669
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     83 2.853249    205.234.175.175       192.168.1.5           TCP      www > 41350 [ACK] Seq=1 Ack=662 Win=7168 Len=0 TSV=691114151 TSER=683632
+
+Frame 83 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 1, Ack: 662, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     84 2.854241    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 84 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 1, Ack: 662, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     85 2.854255    192.168.1.5           205.234.175.175       TCP      41350 > www [ACK] Seq=662 Ack=171 Win=6912 Len=0 TSV=683649 TSER=691114152
+
+Frame 85 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 662, Ack: 171, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     86 2.898126    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 86 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 511, Ack: 2644, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     87 2.918610    64.179.4.146          192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 87 (261 bytes on wire, 261 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.179.4.146 (64.179.4.146), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 54861 (54861), Seq: 12905, Ack: 3978, Len: 195
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     88 2.918645    192.168.1.5           64.179.4.146          TCP      54861 > www [ACK] Seq=3978 Ack=13100 Win=30104 Len=0 TSV=683665 TSER=3248926051
+
+Frame 88 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.179.4.146 (64.179.4.146)
+Transmission Control Protocol, Src Port: 54861 (54861), Dst Port: www (80), Seq: 3978, Ack: 13100, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     89 2.935489    192.168.1.5           205.234.175.175       TCP      41348 > www [ACK] Seq=2644 Ack=681 Win=6912 Len=0 TSV=683670 TSER=691666601
+
+Frame 89 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 2644, Ack: 681, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     90 2.971813    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/statusicon/post_old.gif HTTP/1.1
+
+Frame 90 (732 bytes on wire, 732 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 2644, Ack: 681, Len: 666
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     91 2.971837    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/reply.gif HTTP/1.1
+
+Frame 91 (726 bytes on wire, 726 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 662, Ack: 171, Len: 660
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     92 3.025821    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 92 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 681, Ack: 3310, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     93 3.025862    192.168.1.5           205.234.175.175       TCP      41348 > www [ACK] Seq=3310 Ack=851 Win=6912 Len=0 TSV=683692 TSER=691666728
+
+Frame 93 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 3310, Ack: 851, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     94 3.026212    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/smilies/smile.gif HTTP/1.1
+
+Frame 94 (726 bytes on wire, 726 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 3310, Ack: 851, Len: 660
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     95 3.039070    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 95 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 171, Ack: 1322, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+     96 3.039117    192.168.1.5           205.234.175.175       TCP      41350 > www [ACK] Seq=1322 Ack=341 Win=6912 Len=0 TSV=683695 TSER=691114337
+
+Frame 96 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 1322, Ack: 341, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     97 3.039503    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/statusicon/forum_old.gif HTTP/1.1
+
+Frame 97 (733 bytes on wire, 733 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 1322, Ack: 341, Len: 667
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     98 3.044257    64.233.183.164        192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 98 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 0, Ack: 1305, Len: 1360
+
+No.     Time        Source                Destination           Protocol Info
+     99 3.044280    192.168.1.5           64.233.183.164        TCP      51604 > www [ACK] Seq=1305 Ack=1360 Win=43520 Len=0
+
+Frame 99 (54 bytes on wire, 54 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51604 (51604), Dst Port: www (80), Seq: 1305, Ack: 1360, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    100 3.044362    64.233.183.164        192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 100 (112 bytes on wire, 112 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 1360, Ack: 1305, Len: 58
+
+No.     Time        Source                Destination           Protocol Info
+    101 3.044368    192.168.1.5           64.233.183.164        TCP      51604 > www [ACK] Seq=1305 Ack=1418 Win=43520 Len=0
+
+Frame 101 (54 bytes on wire, 54 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51604 (51604), Dst Port: www (80), Seq: 1305, Ack: 1418, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    102 3.045946    64.233.183.164        192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 102 (1414 bytes on wire, 1414 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 1418, Ack: 1305, Len: 1360
+
+No.     Time        Source                Destination           Protocol Info
+    103 3.045960    192.168.1.5           64.233.183.164        TCP      51604 > www [ACK] Seq=1305 Ack=2778 Win=46240 Len=0
+
+Frame 103 (54 bytes on wire, 54 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51604 (51604), Dst Port: www (80), Seq: 1305, Ack: 2778, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    104 3.051801    192.168.1.5           64.233.183.164        HTTP     GET /pagead/show_ads.js HTTP/1.1
+
+Frame 104 (626 bytes on wire, 626 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51588 (51588), Dst Port: www (80), Seq: 572, Ack: 352, Len: 572
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    105 3.080968    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 105 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 851, Ack: 3970, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    106 3.081387    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/tags.gif HTTP/1.1
+
+Frame 106 (725 bytes on wire, 725 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 3970, Ack: 1021, Len: 659
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    107 3.096211    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 107 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 341, Ack: 1989, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    108 3.096578    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/quote.gif HTTP/1.1
+
+Frame 108 (726 bytes on wire, 726 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 1989, Ack: 511, Len: 660
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    109 3.119167    64.233.183.164        192.168.1.5           HTTP     HTTP/1.1 200 OK (text/html)
+
+Frame 109 (359 bytes on wire, 359 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 2778, Ack: 1305, Len: 305
+[Reassembled TCP Segments (3083 bytes): #98(1360), #100(58), #102(1360), #109(305)]
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time        Source                Destination           Protocol Info
+    110 3.119209    192.168.1.5           64.233.183.164        TCP      51604 > www [ACK] Seq=1305 Ack=3083 Win=46240 Len=0
+
+Frame 110 (54 bytes on wire, 54 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51604 (51604), Dst Port: www (80), Seq: 1305, Ack: 3083, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    111 3.133979    64.233.183.164        192.168.1.5           HTTP     HTTP/1.1 304 Not Modified
+
+Frame 111 (406 bytes on wire, 406 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51588 (51588), Seq: 352, Ack: 1144, Len: 352
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    112 3.134022    192.168.1.5           64.233.183.164        TCP      51588 > www [ACK] Seq=1144 Ack=704 Win=38080 Len=0
+
+Frame 112 (54 bytes on wire, 54 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51588 (51588), Dst Port: www (80), Seq: 1144, Ack: 704, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    113 3.136390    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 113 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1021, Ack: 4629, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    114 3.139883    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/gradients/gradient_thead.gif HTTP/1.1
+
+Frame 114 (715 bytes on wire, 715 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 4629, Ack: 1191, Len: 649
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    115 3.154092    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 115 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 511, Ack: 2649, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    116 3.188621    192.168.1.5           64.233.183.164        HTTP     GET /pagead/ads?client=ca-pub-4420048478783872&dt=1193232854280&lmt=1193232851&alt_color=ffffff&prev_fmts=728x90_as&slot=1&format=300x250_as&output=html&correlator=1193232854280&url=http%3A%2F%2Fwww.linuxquestions.org%2Fquestions%2Flinux-software-2%2Fwireshark-does-not-have-permission-to-save-files-507913%2F&color_bg=FFFFFF&color_text=000000&color_link=354f81&color_url=486591&color_border=ffffff&ad_type=text_image&ref=http%3A%2F%2Fwww.google.pt%2Fsearch%3Fhl%3Dpt-PT%26q%3Dwireshark%2B%2522you%2Bdon%2527t%2Bhave%2Bpermission%2Bto%2Bmove%2Bthe%2Bcapture%2Bfile%2522%26btnG%3DPesquisar%26meta%3D&cc=100&ga_vid=1955229425.1191768416&ga_sid=1193232665&ga_hid=972256455&ga_fc=true&flash=9&u_h=768&u_w=1024&u_ah=718&u_aw=1024&u_cd=24&u_tz=60&u_his=4&u_java=true&u_nplug=7&u_nmime=65 HTTP/1.1
+
+Frame 116 (1404 bytes on wire, 1404 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 64.233.183.164 (64.233.183.164)
+Transmission Control Protocol, Src Port: 51604 (51604), Dst Port: www (80), Seq: 1305, Ack: 3083, Len: 1350
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    117 3.191503    192.168.1.5           205.234.175.175       TCP      41350 > www [ACK] Seq=2649 Ack=681 Win=6912 Len=0 TSV=683734 TSER=691114452
+
+Frame 117 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 2649, Ack: 681, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    118 3.191825    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/misc/digg.png HTTP/1.1
+
+Frame 118 (722 bytes on wire, 722 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 2649, Ack: 681, Len: 656
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    119 3.203438    192.168.1.5           65.205.8.152          TCP      44439 > www [SYN] Seq=0 Len=0 MSS=1460 TSV=683736 TSER=0 WS=2
+
+Frame 119 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44439 (44439), Dst Port: www (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    120 3.225331    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 120 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1191, Ack: 5278, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    121 3.225700    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/misc/delicious.png HTTP/1.1
+
+Frame 121 (727 bytes on wire, 727 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 5278, Ack: 1361, Len: 661
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    122 3.269505    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 122 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 681, Ack: 3305, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    123 3.271577    192.168.1.5           205.234.175.175       TCP      41350 > www [ACK] Seq=3305 Ack=851 Win=6912 Len=0 TSV=683754 TSER=691114567
+
+Frame 123 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 3305, Ack: 851, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    124 3.271905    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/statusicon/forum_new.gif HTTP/1.1
+
+Frame 124 (733 bytes on wire, 733 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 3305, Ack: 851, Len: 667
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    125 3.273364    64.233.183.164        192.168.1.5           TCP      www > 51604 [ACK] Seq=3083 Ack=2653 Win=10784 Len=0
+
+Frame 125 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 3083, Ack: 2653, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    126 3.273434    64.233.183.164        192.168.1.5           TCP      www > 51604 [ACK] Seq=3083 Ack=2655 Win=10784 Len=0
+
+Frame 126 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 64.233.183.164 (64.233.183.164), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 51604 (51604), Seq: 3083, Ack: 2655, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    127 3.285163    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 127 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1361, Ack: 5939, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    128 3.285562    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/printer.gif HTTP/1.1
+
+Frame 128 (728 bytes on wire, 728 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 5939, Ack: 1531, Len: 662
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    129 3.326613    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 129 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 851, Ack: 3972, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    130 3.326993    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/sendtofriend.gif HTTP/1.1
+
+Frame 130 (733 bytes on wire, 733 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 3972, Ack: 1021, Len: 667
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    131 3.340901    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 131 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1531, Ack: 6601, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    132 3.341179    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/collapse_thead.gif HTTP/1.1
+
+Frame 132 (735 bytes on wire, 735 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 6601, Ack: 1701, Len: 669
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    133 3.380610    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 133 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41350 (41350), Seq: 1021, Ack: 4639, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    134 3.381022    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/buttons/collapse_tcat.gif HTTP/1.1
+
+Frame 134 (734 bytes on wire, 734 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41350 (41350), Dst Port: www (80), Seq: 4639, Ack: 1191, Len: 668
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    135 3.392344    65.205.8.152          192.168.1.5           TCP      www > 44439 [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1460 WS=0 TSV=0 TSER=0
+
+Frame 135 (78 bytes on wire, 78 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 65.205.8.152 (65.205.8.152), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 44439 (44439), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    136 3.392373    192.168.1.5           65.205.8.152          TCP      44439 > www [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSV=683784 TSER=0
+
+Frame 136 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44439 (44439), Dst Port: www (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    137 3.392691    192.168.1.5           65.205.8.152          HTTP     GET /adj/ttm.linuxquestions/ros;tile=2;sz=160x600;ord=1193232850? HTTP/1.1
+
+Frame 137 (621 bytes on wire, 621 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 65.205.8.152 (65.205.8.152)
+Transmission Control Protocol, Src Port: 44439 (44439), Dst Port: www (80), Seq: 1, Ack: 1, Len: 555
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    138 3.394838    205.234.175.175       192.168.1.5           TCP      [TCP segment of a reassembled PDU]
+
+Frame 138 (236 bytes on wire, 236 bytes captured)
+Ethernet II, Src: D-Link_29:94:d5 (00:15:e9:29:94:d5), Dst: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5)
+Internet Protocol, Src: 205.234.175.175 (205.234.175.175), Dst: 192.168.1.5 (192.168.1.5)
+Transmission Control Protocol, Src Port: www (80), Dst Port: 41348 (41348), Seq: 1701, Ack: 7270, Len: 170
+
+No.     Time        Source                Destination           Protocol Info
+    139 3.395111    192.168.1.5           205.234.175.175       HTTP     GET /images/questions/images/misc/addyahoo.gif HTTP/1.1
+
+Frame 139 (726 bytes on wire, 726 bytes captured)
+Ethernet II, Src: AsustekC_a5:6b:b5 (00:11:d8:a5:6b:b5), Dst: D-Link_29:94:d5 (00:15:e9:29:94:d5)
+Internet Protocol, Src: 192.168.1.5 (192.168.1.5), Dst: 205.234.175.175 (205.234.175.175)
+Transmission Control Protocol, Src Port: 41348 (41348), Dst Port: www (80), Seq: 7270, Ack: 1871, Len: 660
+Hypertext Transfer Protocol

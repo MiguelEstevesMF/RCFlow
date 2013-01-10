@@ -1,0 +1,370 @@
+00:50:57.981683 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 1525085815:1525085821(6) ack 1109511717 win 64996
+00:50:58.011873 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 1:52(51) ack 6 win 5840
+00:50:58.017740 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 6:14(8) ack 52 win 64945
+00:50:58.019471 IP miguel-w3n.1490 > ftp.di.uminho.pt.64124: S 2640145797:2640145797(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:50:58.036304 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 52:91(39) ack 14 win 5840
+00:50:58.038930 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 14:22(8) ack 91 win 64906
+00:50:58.039192 IP ftp.di.uminho.pt.64124 > miguel-w3n.1490: S 1202647716:1202647716(0) ack 2640145798 win 5840 <mss 1460,nop,nop,sackOK>
+00:50:58.039289 IP miguel-w3n.1490 > ftp.di.uminho.pt.64124: . ack 1 win 65535
+00:50:58.091511 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 91:130(39) ack 22 win 5840
+00:50:58.103466 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 22:30(8) ack 130 win 64867
+00:50:58.122808 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 130:169(39) ack 30 win 5840
+00:50:58.129055 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 30:36(6) ack 169 win 64828
+00:50:58.147708 IP ftp.di.uminho.pt.64124 > miguel-w3n.1490: R 1:1(0) ack 1 win 5840
+00:50:58.148175 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 169:220(51) ack 36 win 5840
+00:50:58.150422 IP miguel-w3n.1491 > ftp.di.uminho.pt.64134: S 3629302490:3629302490(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:50:58.150890 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 36:43(7) ack 220 win 64777
+00:50:58.168855 IP ftp.di.uminho.pt.64134 > miguel-w3n.1491: S 1214243334:1214243334(0) ack 3629302491 win 5840 <mss 1460,nop,nop,sackOK>
+00:50:58.168953 IP miguel-w3n.1491 > ftp.di.uminho.pt.64134: . ack 1 win 65535
+00:50:58.170799 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 220:252(32) ack 43 win 5840
+00:50:58.179164 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 43:49(6) ack 252 win 64745
+00:50:58.197936 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 252:282(30) ack 49 win 5840
+00:50:58.199273 IP ftp.di.uminho.pt.64134 > miguel-w3n.1491: P 1:502(501) ack 1 win 5840
+00:50:58.199348 IP ftp.di.uminho.pt.64134 > miguel-w3n.1491: F 502:502(0) ack 1 win 5840
+00:50:58.199495 IP miguel-w3n.1491 > ftp.di.uminho.pt.64134: . ack 503 win 65034
+00:50:58.199880 IP miguel-w3n.1491 > ftp.di.uminho.pt.64134: F 1:1(0) ack 503 win 65034
+00:50:58.220315 IP ftp.di.uminho.pt.64134 > miguel-w3n.1491: . ack 2 win 5840
+00:50:58.299130 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: . ack 282 win 64715
+00:50:58.356396 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 282:335(53) ack 49 win 5840
+00:50:58.499388 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: . ack 335 win 64662
+00:50:59.449663 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 49:55(6) ack 335 win 64662
+00:50:59.469725 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 335:386(51) ack 55 win 5840
+00:50:59.480080 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 55:65(10) ack 386 win 64611
+00:50:59.481823 IP miguel-w3n.1492 > ftp.di.uminho.pt.60322: S 2956661569:2956661569(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:50:59.499105 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 386:425(39) ack 65 win 5840
+00:50:59.501051 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 65:75(10) ack 425 win 64572
+00:50:59.520053 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 425:464(39) ack 75 win 5840
+00:50:59.521268 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 75:85(10) ack 464 win 64533
+00:50:59.540465 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 464:495(31) ack 85 win 5840
+00:50:59.541064 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 85:91(6) ack 495 win 64502
+00:50:59.560363 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 495:544(49) ack 91 win 5840
+00:50:59.571499 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: P 91:100(9) ack 544 win 64453
+00:50:59.572960 IP miguel-w3n.1493 > ftp.di.uminho.pt.17431: S 2432124142:2432124142(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:50:59.590486 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 544:575(31) ack 100 win 5840
+00:50:59.591868 IP ftp.di.uminho.pt.17431 > miguel-w3n.1493: S 1210987390:1210987390(0) ack 2432124143 win 5840 <mss 1460,nop,nop,sackOK>
+00:50:59.591986 IP miguel-w3n.1493 > ftp.di.uminho.pt.17431: . ack 1 win 65535
+00:50:59.596700 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: F 100:100(0) ack 575 win 64422
+00:50:59.596898 IP miguel-w3n.1493 > ftp.di.uminho.pt.17431: F 1:1(0) ack 1 win 65535
+00:50:59.615795 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: P 575:588(13) ack 101 win 5840
+00:50:59.616305 IP miguel-w3n.1487 > ftp.di.uminho.pt.21: R 101:101(0) ack 588 win 0
+00:50:59.616405 IP ftp.di.uminho.pt.21 > miguel-w3n.1487: F 588:588(0) ack 101 win 5840
+00:50:59.616434 IP ftp.di.uminho.pt.17431 > miguel-w3n.1493: R 1:1(0) ack 1 win 5840
+00:50:59.617304 IP ftp.di.uminho.pt.17431 > miguel-w3n.1493: R 1210987391:1210987391(0) win 0
+00:51:02.532931 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: S 2023989973:2023989973(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:02.552514 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: S 1215201153:1215201153(0) ack 2023989974 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:02.552912 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: . ack 1 win 65535
+00:51:02.573993 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1:263(262) ack 1 win 5840
+00:51:02.575540 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 1:17(16) ack 263 win 65273
+00:51:02.594354 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: . ack 17 win 5840
+00:51:02.596449 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 263:941(678) ack 17 win 5840
+00:51:02.615490 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 17:23(6) ack 941 win 64595
+00:51:02.634772 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 941:960(19) ack 23 win 5840
+00:51:02.635533 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 23:28(5) ack 960 win 64576
+00:51:02.655806 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 960:994(34) ack 28 win 5840
+00:51:02.665589 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 28:36(8) ack 994 win 64542
+00:51:02.684811 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 994:1024(30) ack 36 win 5840
+00:51:02.685602 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 36:42(6) ack 1024 win 64512
+00:51:02.705191 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1024:1075(51) ack 42 win 5840
+00:51:02.715887 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 42:52(10) ack 1075 win 64461
+00:51:02.717131 IP miguel-w3n.1495 > ftp.di.uminho.pt.58877: S 1724700044:1724700044(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:02.735053 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1075:1114(39) ack 52 win 5840
+00:51:02.735803 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 52:62(10) ack 1114 win 64422
+00:51:02.736718 IP ftp.di.uminho.pt.58877 > miguel-w3n.1495: S 1210195893:1210195893(0) ack 1724700045 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:02.736811 IP miguel-w3n.1495 > ftp.di.uminho.pt.58877: . ack 1 win 65535
+00:51:02.756743 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1114:1153(39) ack 62 win 5840
+00:51:02.765774 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 62:72(10) ack 1153 win 64383
+00:51:02.794692 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1153:1184(31) ack 72 win 5840
+00:51:02.795778 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 72:78(6) ack 1184 win 64352
+00:51:02.862684 IP ftp.di.uminho.pt.58877 > miguel-w3n.1495: R 1:1(0) ack 1 win 5840
+00:51:02.944230 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1184:1235(51) ack 78 win 5840
+00:51:02.946219 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: P 78:87(9) ack 1235 win 64301
+00:51:02.947982 IP miguel-w3n.1496 > ftp.di.uminho.pt.44751: S 986084214:986084214(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:02.970862 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1235:1266(31) ack 87 win 5840
+00:51:02.977219 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: F 87:87(0) ack 1266 win 65535
+00:51:02.979152 IP ftp.di.uminho.pt.44751 > miguel-w3n.1496: S 1208705226:1208705226(0) ack 986084215 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:02.979565 IP miguel-w3n.1496 > ftp.di.uminho.pt.44751: R 986084215:986084215(0) win 0
+00:51:02.996339 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: P 1266:1279(13) ack 88 win 5840
+00:51:02.996844 IP miguel-w3n.1494 > ftp.di.uminho.pt.21: R 88:88(0) ack 1279 win 0
+00:51:02.996944 IP ftp.di.uminho.pt.21 > miguel-w3n.1494: F 1279:1279(0) ack 88 win 5840
+00:51:03.005085 arp who-has miguel-w3n tell mygateway1.ar7
+00:51:03.005113 arp reply miguel-w3n is-at 00:11:d8:a5:6b:b5 (oui Unknown)
+00:51:05.838919 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: S 2027425689:2027425689(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:05.858223 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: S 1215154446:1215154446(0) ack 2027425690 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:05.858645 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: . ack 1 win 65535
+00:51:05.915667 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1:263(262) ack 1 win 5840
+00:51:05.920303 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 1:17(16) ack 263 win 65273
+00:51:05.939542 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: . ack 17 win 5840
+00:51:05.941296 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 263:941(678) ack 17 win 5840
+00:51:05.960504 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 17:23(6) ack 941 win 64595
+00:51:05.979169 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 941:960(19) ack 23 win 5840
+00:51:05.980428 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 23:28(5) ack 960 win 64576
+00:51:05.999113 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 960:994(34) ack 28 win 5840
+00:51:06.000386 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 28:36(8) ack 994 win 64542
+00:51:06.018577 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 994:1024(30) ack 36 win 5840
+00:51:06.020394 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 36:42(6) ack 1024 win 64512
+00:51:06.039702 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1024:1072(48) ack 42 win 5840
+00:51:06.040672 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 42:53(11) ack 1072 win 64464
+00:51:06.041910 IP miguel-w3n.1498 > ftp.di.uminho.pt.6405: S 2334235245:2334235245(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:06.059739 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1072:1111(39) ack 53 win 5840
+00:51:06.061110 IP ftp.di.uminho.pt.6405 > miguel-w3n.1498: S 1214487039:1214487039(0) ack 2334235246 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:06.061235 IP miguel-w3n.1498 > ftp.di.uminho.pt.6405: . ack 1 win 65535
+00:51:06.065371 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 53:64(11) ack 1111 win 64425
+00:51:06.084375 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1111:1150(39) ack 64 win 5840
+00:51:06.090528 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 64:75(11) ack 1150 win 64386
+00:51:06.109283 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1150:1189(39) ack 75 win 5840
+00:51:06.110591 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 75:81(6) ack 1189 win 64347
+00:51:06.167200 IP ftp.di.uminho.pt.6405 > miguel-w3n.1498: R 1:1(0) ack 1 win 5840
+00:51:06.167569 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1189:1240(51) ack 81 win 5840
+00:51:06.171929 IP miguel-w3n.1499 > ftp.di.uminho.pt.45462: S 2288401350:2288401350(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:06.172433 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 81:91(10) ack 1240 win 64296
+00:51:06.191051 IP ftp.di.uminho.pt.45462 > miguel-w3n.1499: S 1219599056:1219599056(0) ack 2288401351 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:06.191232 IP miguel-w3n.1499 > ftp.di.uminho.pt.45462: . ack 1 win 65535
+00:51:06.194672 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 1240:2264(1024) ack 91 win 5840
+00:51:06.310613 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: . ack 2264 win 65535
+00:51:06.330086 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2264:2719(455) ack 91 win 5840
+00:51:06.340928 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 91:97(6) ack 2719 win 65080
+00:51:06.360289 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2719:2749(30) ack 97 win 5840
+00:51:06.363047 IP ftp.di.uminho.pt.45462 > miguel-w3n.1499: . 1:1361(1360) ack 1 win 5840
+00:51:06.363221 IP ftp.di.uminho.pt.45462 > miguel-w3n.1499: P 1361:1628(267) ack 1 win 5840
+00:51:06.363286 IP miguel-w3n.1499 > ftp.di.uminho.pt.45462: . ack 1628 win 65535
+00:51:06.363295 IP ftp.di.uminho.pt.45462 > miguel-w3n.1499: F 1628:1628(0) ack 1 win 5840
+00:51:06.363450 IP miguel-w3n.1499 > ftp.di.uminho.pt.45462: . ack 1629 win 65535
+00:51:06.365325 IP miguel-w3n.1499 > ftp.di.uminho.pt.45462: F 1:1(0) ack 1629 win 65535
+00:51:06.386169 IP ftp.di.uminho.pt.45462 > miguel-w3n.1499: . ack 2 win 5840
+00:51:06.510918 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: . ack 2749 win 65050
+00:51:06.529609 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2749:2803(54) ack 97 win 5840
+00:51:06.711169 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: . ack 2803 win 64996
+00:51:08.784894 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 97:103(6) ack 2803 win 64996
+00:51:08.804611 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2803:2854(51) ack 103 win 5840
+00:51:08.824455 IP miguel-w3n.1500 > ftp.di.uminho.pt.48758: S 2650599592:2650599592(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:08.824896 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 103:123(20) ack 2854 win 64945
+00:51:08.843569 IP ftp.di.uminho.pt.48758 > miguel-w3n.1500: S 1221418432:1221418432(0) ack 2650599593 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:08.843680 IP miguel-w3n.1500 > ftp.di.uminho.pt.48758: . ack 1 win 65535
+00:51:08.846062 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2854:2864(10) ack 123 win 5840
+00:51:08.854496 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 123:143(20) ack 2864 win 64935
+00:51:08.874666 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2864:2884(20) ack 143 win 5840
+00:51:08.884582 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 143:163(20) ack 2884 win 64915
+00:51:08.904178 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2884:2925(41) ack 163 win 5840
+00:51:08.914749 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 163:169(6) ack 2925 win 64874
+00:51:08.934079 IP ftp.di.uminho.pt.48758 > miguel-w3n.1500: R 1:1(0) ack 1 win 5840
+00:51:08.934450 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2925:2976(51) ack 169 win 5840
+00:51:08.944827 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: P 169:188(19) ack 2976 win 64823
+00:51:08.946058 IP miguel-w3n.1501 > ftp.di.uminho.pt.65509: S 1087134157:1087134157(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:08.964316 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 2976:3017(41) ack 188 win 5840
+00:51:08.966500 IP ftp.di.uminho.pt.65509 > miguel-w3n.1501: S 1215001489:1215001489(0) ack 1087134158 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:08.966614 IP miguel-w3n.1501 > ftp.di.uminho.pt.65509: . ack 1 win 65535
+00:51:08.979954 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: F 188:188(0) ack 3017 win 64782
+00:51:08.980176 IP miguel-w3n.1501 > ftp.di.uminho.pt.65509: F 1:1(0) ack 1 win 65535
+00:51:08.998935 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: P 3017:3030(13) ack 189 win 5840
+00:51:08.999447 IP miguel-w3n.1497 > ftp.di.uminho.pt.21: R 189:189(0) ack 3030 win 0
+00:51:08.999548 IP ftp.di.uminho.pt.21 > miguel-w3n.1497: F 3030:3030(0) ack 189 win 5840
+00:51:08.999576 IP ftp.di.uminho.pt.65509 > miguel-w3n.1501: R 1:1(0) ack 1 win 5840
+00:51:09.000309 IP ftp.di.uminho.pt.65509 > miguel-w3n.1501: R 1215001490:1215001490(0) win 0
+00:51:17.628512 IP miguel-w3n.1049 > mygateway1.ar7.53:  48740+ A? sharinglesi.org. (33)
+00:51:18.378851 IP mygateway1.ar7.53 > miguel-w3n.1049:  48740 4/0/0 CNAME[|domain]
+00:51:18.386001 IP miguel-w3n.1503 > sharinglesi.org.80: S 4059733733:4059733733(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:18.458239 IP sharinglesi.org.80 > miguel-w3n.1503: S 3647139521:3647139521(0) ack 4059733734 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:18.458453 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 1 win 65535
+00:51:18.459014 IP miguel-w3n.1503 > sharinglesi.org.80: P 1:654(653) ack 1 win 65535
+00:51:18.543409 IP sharinglesi.org.80 > miguel-w3n.1503: . ack 654 win 6530
+00:51:18.570245 IP sharinglesi.org.80 > miguel-w3n.1503: . 1:1361(1360) ack 654 win 6530
+00:51:18.571682 IP sharinglesi.org.80 > miguel-w3n.1503: . 1361:2721(1360) ack 654 win 6530
+00:51:18.571752 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 2721 win 65535
+00:51:18.628608 IP miguel-w3n.1049 > mygateway1.ar7.53:  22631+ PTR? 127.136.103.82.in-addr.arpa. (45)
+00:51:18.630124 IP mygateway1.ar7.53 > miguel-w3n.1049:  22631- 1/0/0 (74)
+00:51:18.645727 IP sharinglesi.org.80 > miguel-w3n.1503: . 2721:4081(1360) ack 654 win 6530
+00:51:18.647083 IP sharinglesi.org.80 > miguel-w3n.1503: . 4081:5441(1360) ack 654 win 6530
+00:51:18.647140 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 5441 win 65535
+00:51:18.648569 IP sharinglesi.org.80 > miguel-w3n.1503: . 5441:6801(1360) ack 654 win 6530
+00:51:18.720835 IP sharinglesi.org.80 > miguel-w3n.1503: . 6801:8161(1360) ack 654 win 6530
+00:51:18.720918 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 8161 win 65535
+00:51:18.722230 IP sharinglesi.org.80 > miguel-w3n.1503: . 8161:9521(1360) ack 654 win 6530
+00:51:18.723707 IP sharinglesi.org.80 > miguel-w3n.1503: . 9521:10881(1360) ack 654 win 6530
+00:51:18.723761 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 10881 win 65535
+00:51:18.794242 IP sharinglesi.org.80 > miguel-w3n.1503: P 10881:12241(1360) ack 654 win 6530
+00:51:18.796069 IP sharinglesi.org.80 > miguel-w3n.1503: . 12241:13601(1360) ack 654 win 6530
+00:51:18.796188 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 13601 win 65535
+00:51:18.797382 IP sharinglesi.org.80 > miguel-w3n.1503: . 13601:14961(1360) ack 654 win 6530
+00:51:18.799068 IP sharinglesi.org.80 > miguel-w3n.1503: . 14961:16321(1360) ack 654 win 6530
+00:51:18.799214 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 16321 win 65535
+00:51:18.800578 IP sharinglesi.org.80 > miguel-w3n.1503: P 16321:17681(1360) ack 654 win 6530
+00:51:18.802037 IP sharinglesi.org.80 > miguel-w3n.1503: . 17681:19041(1360) ack 654 win 6530
+00:51:18.802143 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 19041 win 65535
+00:51:18.870131 IP sharinglesi.org.80 > miguel-w3n.1503: . 19041:20401(1360) ack 654 win 6530
+00:51:18.871518 IP sharinglesi.org.80 > miguel-w3n.1503: . 20401:21761(1360) ack 654 win 6530
+00:51:18.871602 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 21761 win 65535
+00:51:18.873025 IP sharinglesi.org.80 > miguel-w3n.1503: . 21761:23121(1360) ack 654 win 6530
+00:51:18.874735 IP sharinglesi.org.80 > miguel-w3n.1503: . 23121:24481(1360) ack 654 win 6530
+00:51:18.874804 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 24481 win 65535
+00:51:18.876258 IP sharinglesi.org.80 > miguel-w3n.1503: . 24481:25841(1360) ack 654 win 6530
+00:51:18.877171 IP miguel-w3n.1049 > mygateway1.ar7.53:  2151+ A? www.google-analytics.com. (42)
+00:51:18.877682 IP sharinglesi.org.80 > miguel-w3n.1503: P 25841:27201(1360) ack 654 win 6530
+00:51:18.877758 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 27201 win 65535
+00:51:18.879232 IP sharinglesi.org.80 > miguel-w3n.1503: . 27201:28561(1360) ack 654 win 6530
+00:51:18.881191 IP sharinglesi.org.80 > miguel-w3n.1503: . 28561:29921(1360) ack 654 win 6530
+00:51:18.881282 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 29921 win 65535
+00:51:18.882632 IP sharinglesi.org.80 > miguel-w3n.1503: . 29921:31281(1360) ack 654 win 6530
+00:51:18.882901 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 31281 win 65535
+00:51:18.896667 IP mygateway1.ar7.53 > miguel-w3n.1049:  2151 4/0/0 CNAME[|domain]
+00:51:18.923804 IP miguel-w3n.1505 > www.google.80: S 1318381127:1318381127(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:18.945012 IP sharinglesi.org.80 > miguel-w3n.1503: . 31281:32641(1360) ack 654 win 6530
+00:51:18.946443 IP sharinglesi.org.80 > miguel-w3n.1503: . 32641:34001(1360) ack 654 win 6530
+00:51:18.946511 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 34001 win 65535
+00:51:18.947921 IP sharinglesi.org.80 > miguel-w3n.1503: . 34001:35361(1360) ack 654 win 6530
+00:51:18.949855 IP sharinglesi.org.80 > miguel-w3n.1503: . 35361:36721(1360) ack 654 win 6530
+00:51:18.949910 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 36721 win 65535
+00:51:18.951360 IP sharinglesi.org.80 > miguel-w3n.1503: . 36721:38081(1360) ack 654 win 6530
+00:51:18.952819 IP sharinglesi.org.80 > miguel-w3n.1503: . 38081:39441(1360) ack 654 win 6530
+00:51:18.952872 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 39441 win 65535
+00:51:18.954330 IP sharinglesi.org.80 > miguel-w3n.1503: . 39441:40801(1360) ack 654 win 6530
+00:51:18.956043 IP sharinglesi.org.80 > miguel-w3n.1503: . 40801:42161(1360) ack 654 win 6530
+00:51:18.956095 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 42161 win 65535
+00:51:18.957519 IP sharinglesi.org.80 > miguel-w3n.1503: P 42161:43521(1360) ack 654 win 6530
+00:51:18.958988 IP sharinglesi.org.80 > miguel-w3n.1503: . 43521:44881(1360) ack 654 win 6530
+00:51:18.959101 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 44881 win 65535
+00:51:18.960490 IP sharinglesi.org.80 > miguel-w3n.1503: . 44881:46241(1360) ack 654 win 6530
+00:51:18.962176 IP sharinglesi.org.80 > miguel-w3n.1503: . 46241:47601(1360) ack 654 win 6530
+00:51:18.962289 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 47601 win 65535
+00:51:18.963680 IP sharinglesi.org.80 > miguel-w3n.1503: . 47601:48961(1360) ack 654 win 6530
+00:51:18.964822 IP sharinglesi.org.80 > miguel-w3n.1503: P 48961:49907(946) ack 654 win 6530
+00:51:18.964883 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 49907 win 65535
+00:51:18.985490 IP www.google.80 > miguel-w3n.1505: S 4023160163:4023160163(0) ack 1318381128 win 5720 <mss 1430,nop,nop,sackOK>
+00:51:18.985661 IP miguel-w3n.1505 > www.google.80: . ack 1 win 65535
+00:51:18.986218 IP miguel-w3n.1505 > www.google.80: P 1:801(800) ack 1 win 65535
+00:51:19.019640 IP sharinglesi.org.80 > miguel-w3n.1503: . 49907:51267(1360) ack 654 win 6530
+00:51:19.021068 IP sharinglesi.org.80 > miguel-w3n.1503: . 51267:52627(1360) ack 654 win 6530
+00:51:19.021139 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 52627 win 65535
+00:51:19.022565 IP sharinglesi.org.80 > miguel-w3n.1503: . 52627:53987(1360) ack 654 win 6530
+00:51:19.024031 IP sharinglesi.org.80 > miguel-w3n.1503: . 53987:55347(1360) ack 654 win 6530
+00:51:19.024085 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 55347 win 65535
+00:51:19.025802 IP sharinglesi.org.80 > miguel-w3n.1503: . 55347:56707(1360) ack 654 win 6530
+00:51:19.027223 IP sharinglesi.org.80 > miguel-w3n.1503: . 56707:58067(1360) ack 654 win 6530
+00:51:19.027276 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 58067 win 65535
+00:51:19.028724 IP sharinglesi.org.80 > miguel-w3n.1503: . 58067:59427(1360) ack 654 win 6530
+00:51:19.030192 IP sharinglesi.org.80 > miguel-w3n.1503: . 59427:60787(1360) ack 654 win 6530
+00:51:19.030245 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 60787 win 65535
+00:51:19.031921 IP sharinglesi.org.80 > miguel-w3n.1503: . 60787:62147(1360) ack 654 win 6530
+00:51:19.033628 IP sharinglesi.org.80 > miguel-w3n.1503: . 62147:63507(1360) ack 654 win 6530
+00:51:19.033681 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 63507 win 65535
+00:51:19.035141 IP sharinglesi.org.80 > miguel-w3n.1503: . 63507:64867(1360) ack 654 win 6530
+00:51:19.036694 IP sharinglesi.org.80 > miguel-w3n.1503: P 64867:66227(1360) ack 654 win 6530
+00:51:19.036754 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 66227 win 65535
+00:51:19.036760 IP sharinglesi.org.80 > miguel-w3n.1503: P 66227:66385(158) ack 654 win 6530
+00:51:19.038655 IP sharinglesi.org.80 > miguel-w3n.1503: . 66385:67745(1360) ack 654 win 6530
+00:51:19.038773 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 67745 win 65535
+00:51:19.040061 IP sharinglesi.org.80 > miguel-w3n.1503: . 67745:69105(1360) ack 654 win 6530
+00:51:19.041523 IP sharinglesi.org.80 > miguel-w3n.1503: . 69105:70465(1360) ack 654 win 6530
+00:51:19.041648 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 70465 win 65535
+00:51:19.043251 IP sharinglesi.org.80 > miguel-w3n.1503: . 70465:71825(1360) ack 654 win 6530
+00:51:19.044826 IP sharinglesi.org.80 > miguel-w3n.1503: . 71825:73185(1360) ack 654 win 6530
+00:51:19.044886 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 73185 win 65535
+00:51:19.044892 IP sharinglesi.org.80 > miguel-w3n.1503: P 74545:74624(79) ack 654 win 6530
+00:51:19.044948 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 73185 win 65535 <nop,nop,sack 1 {74545:74624}>
+00:51:19.046470 IP sharinglesi.org.80 > miguel-w3n.1503: . 73185:74545(1360) ack 654 win 6530
+00:51:19.046597 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 74624 win 65535
+00:51:19.047943 IP sharinglesi.org.80 > miguel-w3n.1503: . 74624:75984(1360) ack 654 win 6530
+00:51:19.074794 IP www.google.80 > miguel-w3n.1505: . ack 801 win 7200
+00:51:19.075820 IP www.google.80 > miguel-w3n.1505: P 1:330(329) ack 801 win 7200
+00:51:19.094312 IP sharinglesi.org.80 > miguel-w3n.1503: . 75984:77344(1360) ack 654 win 6530
+00:51:19.094416 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 77344 win 65535
+00:51:19.095745 IP sharinglesi.org.80 > miguel-w3n.1503: . 77344:78704(1360) ack 654 win 6530
+00:51:19.095959 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 78704 win 65535
+00:51:19.097231 IP sharinglesi.org.80 > miguel-w3n.1503: . 78704:80064(1360) ack 654 win 6530
+00:51:19.098935 IP sharinglesi.org.80 > miguel-w3n.1503: . 80064:81424(1360) ack 654 win 6530
+00:51:19.098993 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 81424 win 65535
+00:51:19.099878 IP sharinglesi.org.80 > miguel-w3n.1503: FP 82784:83336(552) ack 654 win 6530
+00:51:19.099946 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 81424 win 65535 <nop,nop,sack 1 {82784:83337}>
+00:51:19.101403 IP sharinglesi.org.80 > miguel-w3n.1503: . 81424:82784(1360) ack 654 win 6530
+00:51:19.101608 IP miguel-w3n.1503 > sharinglesi.org.80: . ack 83337 win 65535
+00:51:19.134787 IP miguel-w3n.1503 > sharinglesi.org.80: F 654:654(0) ack 83337 win 65535
+00:51:19.167635 IP miguel-w3n.1507 > sharinglesi.org.80: S 2762319143:2762319143(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:19.206424 IP sharinglesi.org.80 > miguel-w3n.1503: . ack 655 win 6530
+00:51:19.229214 IP miguel-w3n.1505 > www.google.80: . ack 330 win 65206
+00:51:19.238660 IP sharinglesi.org.80 > miguel-w3n.1507: S 3643359737:3643359737(0) ack 2762319144 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:19.238839 IP miguel-w3n.1507 > sharinglesi.org.80: . ack 1 win 65535
+00:51:19.239409 IP miguel-w3n.1507 > sharinglesi.org.80: P 1:710(709) ack 1 win 65535
+00:51:19.324184 IP sharinglesi.org.80 > miguel-w3n.1507: . ack 710 win 7090
+00:51:19.357280 IP sharinglesi.org.80 > miguel-w3n.1507: . 1:1361(1360) ack 710 win 7090
+00:51:19.357582 IP sharinglesi.org.80 > miguel-w3n.1507: FP 2721:2935(214) ack 710 win 7090
+00:51:19.357650 IP miguel-w3n.1507 > sharinglesi.org.80: . ack 1361 win 65535 <nop,nop,sack 1 {2721:2936}>
+00:51:19.359115 IP sharinglesi.org.80 > miguel-w3n.1507: . 1361:2721(1360) ack 710 win 7090
+00:51:19.359287 IP miguel-w3n.1507 > sharinglesi.org.80: . ack 2936 win 65535
+00:51:19.364705 IP miguel-w3n.1507 > sharinglesi.org.80: F 710:710(0) ack 2936 win 65535
+00:51:19.435797 IP sharinglesi.org.80 > miguel-w3n.1507: . ack 711 win 7090
+00:51:19.630402 IP miguel-w3n.1049 > mygateway1.ar7.53:  54633+ PTR? 99.93.249.66.in-addr.arpa. (43)
+00:51:19.631956 IP mygateway1.ar7.53 > miguel-w3n.1049:  54633- 1/0/0 (67)
+00:51:23.342663 IP miguel-w3n.1049 > mygateway1.ar7.53:  24425+ A? pt-pt.start2.mozilla.com. (42)
+00:51:23.398123 IP mygateway1.ar7.53 > miguel-w3n.1049:  24425 5/0/0 CNAME[|domain]
+00:51:23.401982 IP miguel-w3n.1509 > pt.80: S 1920432562:1920432562(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:23.468829 IP pt.80 > miguel-w3n.1509: S 1340236149:1340236149(0) ack 1920432563 win 8190 <mss 1360>
+00:51:23.469059 IP miguel-w3n.1509 > pt.80: . ack 1 win 65535
+00:51:23.469642 IP miguel-w3n.1509 > pt.80: P 1:643(642) ack 1 win 65535
+00:51:23.543180 IP pt.80 > miguel-w3n.1509: . ack 643 win 6700
+00:51:23.546259 IP pt.80 > miguel-w3n.1509: P 1:699(698) ack 643 win 6700
+00:51:23.557103 IP miguel-w3n.1049 > mygateway1.ar7.53:  15464+ A? www.google.com. (32)
+00:51:23.575130 IP mygateway1.ar7.53 > miguel-w3n.1049:  15464 4/0/0 CNAME www.l.google.com.,[|domain]
+00:51:23.578959 IP miguel-w3n.1511 > www.google.80: S 2719434431:2719434431(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:23.635811 IP miguel-w3n.1049 > mygateway1.ar7.53:  26730+ PTR? 104.183.233.64.in-addr.arpa. (45)
+00:51:23.637361 IP mygateway1.ar7.53 > miguel-w3n.1049:  26730- 1/0/0 (61)
+00:51:23.640599 IP www.google.80 > miguel-w3n.1511: S 4007636928:4007636928(0) ack 2719434432 win 5720 <mss 1430,nop,nop,sackOK>
+00:51:23.640780 IP miguel-w3n.1511 > www.google.80: . ack 1 win 65535
+00:51:23.641340 IP miguel-w3n.1511 > www.google.80: P 1:705(704) ack 1 win 65535
+00:51:23.715976 IP www.google.80 > miguel-w3n.1511: . ack 705 win 7040
+00:51:23.719903 IP www.google.80 > miguel-w3n.1511: P 1:520(519) ack 705 win 7040
+00:51:23.726739 IP miguel-w3n.1049 > mygateway1.ar7.53:  4202+ A? www.google.pt. (31)
+00:51:23.735679 IP miguel-w3n.1509 > pt.80: . ack 699 win 64837
+00:51:23.744790 IP mygateway1.ar7.53 > miguel-w3n.1049:  4202 5/0/0 CNAME[|domain]
+00:51:23.749349 IP miguel-w3n.1513 > www.google.80: S 357279458:357279458(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:23.811809 IP www.google.80 > miguel-w3n.1513: S 3714651434:3714651434(0) ack 357279459 win 5720 <mss 1430,nop,nop,sackOK>
+00:51:23.812052 IP miguel-w3n.1513 > www.google.80: . ack 1 win 65535
+00:51:23.812681 IP miguel-w3n.1513 > www.google.80: P 1:563(562) ack 1 win 65535
+00:51:23.835818 IP miguel-w3n.1511 > www.google.80: . ack 520 win 65016
+00:51:23.885939 IP www.google.80 > miguel-w3n.1513: . ack 563 win 6744
+00:51:23.894784 IP www.google.80 > miguel-w3n.1513: . 1:1361(1360) ack 563 win 6744
+00:51:23.895592 IP www.google.80 > miguel-w3n.1513: P 1361:1908(547) ack 563 win 6744
+00:51:23.895664 IP miguel-w3n.1513 > www.google.80: . ack 1908 win 65535
+00:51:28.423825 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: S 3186028920:3186028920(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:28.443288 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: S 1240621764:1240621764(0) ack 3186028921 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:28.443689 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: . ack 1 win 65535
+00:51:28.464335 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1:263(262) ack 1 win 5840
+00:51:28.472750 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 1:17(16) ack 263 win 65273
+00:51:28.491331 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: . ack 17 win 5840
+00:51:28.493408 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 263:941(678) ack 17 win 5840
+00:51:28.512915 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 17:23(6) ack 941 win 64595
+00:51:28.531996 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 941:960(19) ack 23 win 5840
+00:51:28.533486 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 23:28(5) ack 960 win 64576
+00:51:28.552950 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 960:994(34) ack 28 win 5840
+00:51:28.563726 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 28:36(8) ack 994 win 64542
+00:51:28.582507 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 994:1024(30) ack 36 win 5840
+00:51:28.592934 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 36:42(6) ack 1024 win 64512
+00:51:28.612066 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1024:1074(50) ack 42 win 5840
+00:51:28.613159 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 42:57(15) ack 1074 win 64462
+00:51:28.614404 IP miguel-w3n.1515 > ftp.di.uminho.pt.32274: S 314304725:314304725(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:28.632280 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1074:1113(39) ack 57 win 5840
+00:51:28.633042 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 57:72(15) ack 1113 win 64423
+00:51:28.633911 IP ftp.di.uminho.pt.32274 > miguel-w3n.1515: S 1241333358:1241333358(0) ack 314304726 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:28.634010 IP miguel-w3n.1515 > ftp.di.uminho.pt.32274: . ack 1 win 65535
+00:51:28.651975 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1113:1152(39) ack 72 win 5840
+00:51:28.657517 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 72:87(15) ack 1152 win 64384
+00:51:28.676382 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1152:1191(39) ack 87 win 5840
+00:51:28.683076 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 87:93(6) ack 1191 win 64345
+00:51:28.701788 IP ftp.di.uminho.pt.32274 > miguel-w3n.1515: R 1:1(0) ack 1 win 5840
+00:51:28.702152 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1191:1241(50) ack 93 win 5840
+00:51:28.703702 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 93:107(14) ack 1241 win 64295
+00:51:28.704840 IP miguel-w3n.1516 > ftp.di.uminho.pt.35347: S 3347897324:3347897324(0) win 65535 <mss 1260,nop,nop,sackOK>
+00:51:28.723894 IP ftp.di.uminho.pt.35347 > miguel-w3n.1516: S 1232294969:1232294969(0) ack 3347897325 win 5840 <mss 1460,nop,nop,sackOK>
+00:51:28.724028 IP miguel-w3n.1516 > ftp.di.uminho.pt.35347: . ack 1 win 65535
+00:51:28.738222 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1241:1280(39) ack 107 win 5840
+00:51:28.743116 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: P 107:113(6) ack 1280 win 65535
+00:51:28.762634 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1280:1310(30) ack 113 win 5840
+00:51:28.797258 IP ftp.di.uminho.pt.35347 > miguel-w3n.1516: P 1:772(771) ack 1 win 5840
+00:51:28.797584 IP ftp.di.uminho.pt.35347 > miguel-w3n.1516: F 772:772(0) ack 1 win 5840
+00:51:28.797761 IP miguel-w3n.1516 > ftp.di.uminho.pt.35347: . ack 773 win 64764
+00:51:28.798376 IP miguel-w3n.1516 > ftp.di.uminho.pt.35347: F 1:1(0) ack 773 win 64764
+00:51:28.818503 IP ftp.di.uminho.pt.35347 > miguel-w3n.1516: . ack 2 win 5840
+00:51:28.943182 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: . ack 1310 win 65505
+00:51:28.962662 IP ftp.di.uminho.pt.21 > miguel-w3n.1514: P 1310:1364(54) ack 113 win 5840
+00:51:29.074506 IP www.google.80 > miguel-w3n.1505: F 330:330(0) ack 801 win 7200
+00:51:29.074706 IP miguel-w3n.1505 > www.google.80: . ack 331 win 65206
+00:51:29.143410 IP miguel-w3n.1514 > ftp.di.uminho.pt.21: . ack 1364 win 65451
+

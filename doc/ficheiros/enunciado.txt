@@ -1,0 +1,11 @@
+T1. Identificação e Ranking de Serviços de Rede
+
+No sentido de se obter um maior conhecimento do perfil do tráfego de rede na UM, o que permite uma melhor gestão da mesma, pretende-se devolver uma ferramenta versátil e intuitiva de apoio à monitorização off-line de redes TCP/IP avançadas. Essa ferramenta deve ser capaz de interpretar e analisar logs de tráfego provenientes de ambientes reais (Netflow, tcpdump, Ethereal), disponibilizando informação sobre serviços de rede suportados e seus índices de utilização. Preferencialmente, essa informação deverá dser disponibilizada através de uma interface gráfica que facilite a filtragem e visualização do ranking dos serviços e a interacção com o utilizador.
+
+-filtragem (nível de rede, transporte, aplicação)
+-índices de utilização por intervalo de tempo (horas, dias, ...)
+	nível de rede - IP, ICMP, IGMP ...
+	transporte - TCP, UDP, ...
+	aplicação - http, mail, ftp, VoIP, ...
+	classe - ToS (DSCP)
+	endereços IP - rede IP origem/destino

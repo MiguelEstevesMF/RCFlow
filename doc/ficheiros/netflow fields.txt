@@ -1,0 +1,30 @@
+version	NetFlow export format version number
+count	Number of flows exported in this packet (1-30)
+sys_uptime	Current time in milliseconds since the export device booted
+unix_secs	Current count of seconds since 0000 UTC 1970
+unix_nsecs	Residual nanoseconds since 0000 UTC 1970
+flow_sequence	Sequence counter of total flows seen
+reserved	Unused (zero) bytes
+
+
+srcaddr	Source IP address
+dstaddr	Destination IP address
+nexthop	IP address of next hop router
+input	SNMP index of input interface
+output	SNMP index of output interface
+dPkts	Packets in the flow
+dOctets	Total number of Layer 3 bytes in the packets of the flow
+first	SysUptime at start of flow
+last	SysUptime at the time the last packet of the flow was received
+srcport	TCP/UDP source port number or equivalent
+dstport	TCP/UDP destination port number or equivalent
+pad1	Unused (zero) bytes
+tcp_flags	Cumulative OR of TCP flags
+prot	IP protocol type (for example, TCP = 6; UDP = 17)
+tos	IP type of service (ToS)
+src_as	Autonomous system number of the source, either origin or peer
+dst_as	Autonomous system number of the destination, either origin or peer
+src_mask	Source address prefix mask bits
+dst_mask	Destination address prefix mask bits
+flags	Flags indicating, among other things, what flows are invalid
+router_sc	IP address of the router that is bypassed by the Catalyst 5000 series switch. This is the same address the router uses when it sends NetFlow export packets. This IP address is propagated to all switches bypassing the router through the FCP protocol.

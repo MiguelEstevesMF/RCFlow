@@ -1,0 +1,85 @@
+Port 	TCP or UDP 	Service or Protocol Name
+7 	TCP/UDP 	echo
+20 	TCP 	File Transport Protocol (FTP)
+21 	TCP 	FTP control
+22 	TCP 	Secure Shell (SSH)
+23 	TCP 	Telnet
+25 	TCP 	Simple Mail Transport Protocol (SMTP)
+53 	TCP/UDP 	Domain Name System (DNS)
+67 	UDP 	Bootstrap Protocol Server (BootP, bootps)
+68 	UDP 	Bootstrap Protocol Client (bootpc)
+69 	UDP 	Trivial File Transfer Protocol (TFTP)
+79 	TCP 	Finger
+80 	TCP 	Hypertext Transfer Protocol (HTTP)
+88 	TCP 	Kerberos
+106 	TCP 	Password Server
+110 	TCP 	Post Office Protocol (POP3)
+111 	TCP/UDP 	Remote Procedure Call (RPC)
+113 	TCP 	Authentication Service
+115 	TCP 	Secure File Transfer Program (SFTP)
+119 	TCP 	Network News Transfer Protocol (NNTP)
+123 	TCP/UDP 	Network Time Protocol (NTP)
+137 	UDP 	Windows Internet Naming Service (WINS)
+138 	UDP 	NETBIOS Datagram Service
+139 	TCP 	Server Message Block (SMB)
+143 	TCP 	Internet Message Access Protocol (IMAP)
+161 	UDP 	Simple Network Management Protocol (SNMP)
+311 	TCP 	Server Admin
+389 	TCP 	Lightweight Directory Access Protocol (LDAP)
+427 	TCP/UDP 	Service Location Protocol (SLP)
+443 	TCP 	Secure Sockets Layer (SSL, or "HTTPS")
+445 	TCP 	Microsoft SMB Domain Server
+497 	TCP/UDP 	Dantz Retrospect
+500 	UDP 	ISAKMP/IKE
+514 	TCP 	shell
+514 	UDP 	Syslog
+515 	TCP 	Line Printer (LPR), Line Printer Daemon (LPD)
+532 	TCP 	netnews
+548 	TCP 	Apple Filing Protcol (AFP) over TCP
+554 	TCP/UDP 	Real Time Streaming Protocol (RTSP)
+623 	UDP 	Lights-Out-Monitoring
+625 	TCP 	Directory Service Proxy (DSProxy)
+626 	TCP 	Mac OS X Server Serial Number Support
+626 	TCP 	AppleShare Imap Admin (ASIA)
+626 	UDP 	serialnumberd
+631 	TCP 	Internet Printing Protocol (IPP)
+636 	TCP 	Secure LDAP
+660 	TCP 	MacOS Server Admin
+687 	TCP 	Add server Admin to uses
+749 	TCP/UDP 	Kerberos 5 admin/changepw
+985 	TCP 	NetInfo Static Port
+993 	TCP 	Mail IMAP SSL
+995 	TCP/UDP 	Mail POP SSL
+1085 	TCP/UDP 	WebObjects
+1220 	TCP 	QT Server Admin
+1649 	TCP 	IP Failover
+1701 	UDP 	L2TP
+1723 	TCP 	PPTP
+2049 	TCP/UDP 	Network File System (NFS)
+2236 	TCP 	Macintosh Manager
+3004 	TCP 	iSync
+3031 	TCP/UDP 	Remote AppleEvents
+3283 	TCP/UDP 	Net Assistant
+3128 	TCP/UDP 	Proxy
+3306 	TCP 	MySQL
+3632 	TCP 	Distributed compiler
+3659 	TCP/UDP 	Simple Authentication and Security Layer (SASL)
+3689 	TCP 	Digital Audio Access Protocol (DAAP)
+4111 	TCP 	XGrid
+4500 	UDP 	IKE NAT Traversal
+5003 	TCP 	FileMaker
+5060 	UDP 	Session Initiation Protocol (SIP)
+5190 	TCP/UDP 	America Online (AOL)
+5222 	TCP 	Jabber
+5223 	TCP 	iChat server SSL
+5269 	TCP 	iChat server-to-server communication
+5353 	UDP 	Multicast DNS (MDNS)
+5432 	TCP 	ARD 2.0 Database
+5678 	UDP 	SNATMAP server
+5900 	TCP 	Virtual Network Computing (VNC)
+5988 	TCP 	WBEM HTTP
+7070 	TCP 	RTSP (Unregistered Use)
+7070 	UDP 	RTSP alternate
+7777 	TCP 	iChat server file transfer proxy
+8005 	TCP 	Tomcat remote shutdown
+8080 	TCP 	Alternate port for Apache
